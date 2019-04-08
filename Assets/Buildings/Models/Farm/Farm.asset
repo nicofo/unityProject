@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79852c4f7dba01644a244b23b7cf0f03, type: 3}
+  m_Name: Farm
+  m_EditorClassIdentifier: 
+  name: Farm
+  id: farm
+  basePrice: {fileID: 11400000, guid: 270c78f5323ebab4795fcf4208a678d0, type: 2}
+  multiplierPrice: {fileID: 11400000, guid: fa6c97a123413524d8e4912e642dbaaf, type: 2}
+  baseScale: {fileID: 11400000, guid: 6dbc8296798e6ce4d8f8ad1a337e61f4, type: 2}
+  space: {fileID: 11400000, guid: db2a9d01371cec34191d71c90fdefbb0, type: 2}
+  upgradeCost: {fileID: 11400000, guid: 9b0b39b6ba6477b4b8652f4de5807955, type: 2}
+  upgradeScales: {fileID: 11400000, guid: 5376f4b24cc238d4a85c81204e1d25ca, type: 2}
+  dimension: {x: 3, y: 4}
+  hasUpgrade: 1
+  isHouse: 0
+  tile: {fileID: 11400000, guid: 5826f684d3362b143b84ffc711b4bdd5, type: 2}
