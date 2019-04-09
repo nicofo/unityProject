@@ -53,7 +53,10 @@ public class SingletonGame : MonoBehaviour
         //}
     }
 
-    
+    private void Start()
+    {
+        PopupMessage("Your goal is to reach 50 gold");
+    }
 
     public void AddPersonToBuild(int index)
     {

@@ -519,8 +519,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1863054432}
-        m_MethodName: closeOptions
+      - m_Target: {fileID: 1651002087}
+        m_MethodName: CloseMessage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2750,8 +2750,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1863054432}
-        m_MethodName: closeOptions
+      - m_Target: {fileID: 1651002087}
+        m_MethodName: CloseOptions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7698,6 +7698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maintool: {fileID: 2139526606}
   message: {fileID: 1715003739}
+  options: {fileID: 1187820005}
   messageText: {fileID: 1557218082}
   state: {fileID: 1062945225}
   endGame: {fileID: 542328765}
@@ -8135,8 +8136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c90ac8b383ec1b43bc9ed1ae72f5a52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popup: {fileID: 1651002085}
   optionMenu: {fileID: 1187820005}
+  popup: {fileID: 1651002087}
 --- !u!1 &1867487967
 GameObject:
   m_ObjectHideFlags: 0

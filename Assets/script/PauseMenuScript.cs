@@ -5,21 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenuScript : MonoBehaviour
 {
-
-    public GameObject popup;
+    
     public GameObject optionMenu;
+    public PopUpScript popup;
 
 
     public void openOptions()
     {
-        popup.SetActive(true);
-        optionMenu.SetActive(true);
-    }
-
-    public void closeOptions()
-    {
-        popup.SetActive(false);
-        optionMenu.SetActive(false);
+        popup.gameObject.SetActive(true);
+        popup.OpenOptions();
     }
 
     public void ExitOptions()
@@ -30,6 +24,6 @@ public class PauseMenuScript : MonoBehaviour
     public void ResetOptions()
     {
        SceneManager.LoadScene("Field", LoadSceneMode.Single);
-    }
+    }   
 
 }
