@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class SingletonGame : MonoBehaviour
 {
 
-    private static SingletonGame _instance;
+    //private static SingletonGame _instance;
 
-    public static SingletonGame Instance { get { return _instance; } }
+    //public static SingletonGame Instance { get { return _instance; } }
     
     public double gold = 0.0;
     public double wood = 0.0;
@@ -42,15 +42,15 @@ public class SingletonGame : MonoBehaviour
 
     private void Awake()
     {
-        this.buildings = new List<InstanitiatedBuilding>();
-        if (_instance != null && _instance != this)
-        {
-            Destroy(this.gameObject);
-        }
-        else
-        {
-            _instance = this;   
-        }
+        //this.buildings = new List<InstanitiatedBuilding>();
+        //if (_instance != null && _instance != this)
+        //{
+        //    Destroy(this.gameObject);
+        //}
+        //else
+        //{
+        //    _instance = this;   
+        //}
     }
 
     
@@ -201,10 +201,11 @@ public class SingletonGame : MonoBehaviour
         maxGold += b.build.space.gold;
         maxFood += b.build.space.food;
         maxWood += b.build.space.wood;
+
         if (b.build.isHouse)
         {
             maxPoulation += b.build.space.population;
-            freePeople += b.build.space.population;
+            //freePeople += b.build.space.population;
         }
 
     }

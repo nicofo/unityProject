@@ -40,6 +40,7 @@ public class PopUpScript : MonoBehaviour
 
     public void SetEndGame(string text, string time)
     {
+        message.SetActive(false);
         endGame.SetActive(true);
         endGameText.text = text;
         timeText.text = time;

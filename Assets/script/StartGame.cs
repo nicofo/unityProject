@@ -19,15 +19,15 @@ public class StartGame : MonoBehaviour
 
     void LateUpdate()
     {
-        audioManager.PlayFx(clip, 0.04f);
-        audioManager.PlaySong(startSong, 0.6f);
-        InstanitiatedBuilding inst1 = new InstanitiatedBuilding();
+        //audioManager.PlayFx(clip, 0.04f);
+        //audioManager.PlaySong(startSong, 0.6f);
+        InstanitiatedBuilding inst1 = ScriptableObject.CreateInstance<InstanitiatedBuilding>();
         inst1.build = startBuild1;
         inst1.position = new Vector2Int(152, -82);
         state.AddBuilding(inst1);
         village.setTile(Tile.Instantiate(startBuild1.tile), inst1.position);
 
-        InstanitiatedBuilding inst2 = new InstanitiatedBuilding();
+        InstanitiatedBuilding inst2 = ScriptableObject.CreateInstance<InstanitiatedBuilding>();
         inst2.build = startBuild2;
         inst2.position = new Vector2Int(156, -89);
         state.AddBuilding(inst2);

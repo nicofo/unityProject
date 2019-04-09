@@ -7,7 +7,12 @@ public class SplashScript : MonoBehaviour
 {
     public void OpenScene()
     {
-        SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("Field", LoadSceneMode.Single);
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 
 }

@@ -43,7 +43,7 @@ public class AddBuildingScript : MonoBehaviour
             state.gold -= price.gold;
             state.wood -= price.wood;
             state.food -= price.food;
-            InstanitiatedBuilding inst = new InstanitiatedBuilding();
+            InstanitiatedBuilding inst = ScriptableObject.CreateInstance<InstanitiatedBuilding>();
             inst.build = build;
             inst.position = village.getTemporalTilePosition();
             state.AddBuilding(inst);

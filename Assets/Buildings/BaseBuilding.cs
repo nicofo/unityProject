@@ -21,7 +21,7 @@ public class BaseBuilding : ScriptableObject
 
     public GameAttributes GetPrice(int Quantity)
     {
-        GameAttributes att = new GameAttributes();
+        GameAttributes att = ScriptableObject.CreateInstance<GameAttributes>();
         att.gold = (int)(Mathf.Pow(multiplierPrice.gold, Quantity) * basePrice.gold);
         att.wood = (int)(Mathf.Pow(multiplierPrice.wood, Quantity) * basePrice.wood);
         att.food = (int)(Mathf.Pow(multiplierPrice.food, Quantity) * basePrice.food);

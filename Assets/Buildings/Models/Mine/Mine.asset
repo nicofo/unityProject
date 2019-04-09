@@ -20,7 +20,7 @@ MonoBehaviour:
   space: {fileID: 11400000, guid: 458633dca5acd8f4fb670c7c6717e805, type: 2}
   upgradeCost: {fileID: 0}
   upgradeScales: {fileID: 0}
-  dimension: {x: 2, y: 2}
+  dimension: {x: 3, y: 3}
   hasUpgrade: 0
   isHouse: 0
   tile: {fileID: 11400000, guid: 7a6aeb4c287d0284bac751f438167fd7, type: 2}

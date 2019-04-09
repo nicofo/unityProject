@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gold: 0
   wood: 0
-  food: 1.6
+  food: 1.7
   population: 0

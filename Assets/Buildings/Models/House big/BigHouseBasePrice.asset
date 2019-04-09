@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: BigHouseBasePrice
   m_EditorClassIdentifier: 
   gold: 0
-  wood: 5
-  food: 5
+  wood: 30
+  food: 40
   population: 0

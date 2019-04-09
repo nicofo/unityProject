@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HouseBasePrice
   m_EditorClassIdentifier: 
   gold: 0
-  wood: 0.9
-  food: 5
+  wood: 10
+  food: 10
   population: 0

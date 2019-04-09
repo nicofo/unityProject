@@ -29,7 +29,7 @@ public class PauseMenuScript : MonoBehaviour
 
     public void ResetOptions()
     {
-        SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+       SceneManager.LoadScene("Field", LoadSceneMode.Single);
     }
 
 }

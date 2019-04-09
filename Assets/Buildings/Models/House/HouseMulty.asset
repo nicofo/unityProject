@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HouseMulty
   m_EditorClassIdentifier: 
   gold: 0
-  wood: 1.5
-  food: 2
+  wood: 2
+  food: 1.5
   population: 0

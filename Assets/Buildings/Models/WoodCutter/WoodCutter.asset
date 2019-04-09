@@ -18,5 +18,9 @@ MonoBehaviour:
   multiplierPrice: {fileID: 11400000, guid: 775d4cc9a61d5d64f8c65669a8c6170c, type: 2}
   baseScale: {fileID: 11400000, guid: a468c91ae0abef4418e0094a4c92590e, type: 2}
   space: {fileID: 11400000, guid: 98162a07b68b23e47b9efcde7c404c0e, type: 2}
+  upgradeCost: {fileID: 11400000, guid: 8887742b463341f4caea66b887c5857c, type: 2}
+  upgradeScales: {fileID: 11400000, guid: 8d3badbf82cdd5646a003b692cbe4b6a, type: 2}
   dimension: {x: 2, y: 2}
+  hasUpgrade: 1
+  isHouse: 0
   tile: {fileID: 11400000, guid: b5ceaf2cfc0787b4d938161deefd6101, type: 2}

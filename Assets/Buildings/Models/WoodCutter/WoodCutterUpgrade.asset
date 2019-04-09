@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WoodCutterUpgrade
   m_EditorClassIdentifier: 
   gold: 0
-  wood: 0
-  food: 1.4
+  wood: 0.2
+  food: 0
   population: 0
