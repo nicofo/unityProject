@@ -55,7 +55,7 @@ public class SingletonGame : MonoBehaviour
 
     private void Start()
     {
-        PopupMessage("Your goal is to reach 50 gold");
+        PopupMessage("Your goal is to reach 50 of gold");
     }
 
     public void AddPersonToBuild(int index)

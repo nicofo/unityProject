@@ -23,6 +23,7 @@ public class MainToolsScript : MonoBehaviour
     void OnDisable()
     {
         camera.active = false;
+        
         audioManager.LowerPass(true);
     }
 
@@ -30,6 +31,7 @@ public class MainToolsScript : MonoBehaviour
     {
         camera.active = true;
         audioManager.LowerPass(false);
+        addBuild.SetActive(false);
     }
 
     public void AddBuild()
